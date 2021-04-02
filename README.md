@@ -1,5 +1,5 @@
-# tryANumber
-A simple game that challenges you to find out a number from 0 to 30. You can see what numbers you`ve tried and see how many times you've tried. When you find out the number, you can use the button "reset" to play again. You can test the project in this link : https://codepen.io/ronaldycgomes/pen/WNRQbaw.
+# Try a number
+A simple game that challenges you to find out a number from 0 to 30. You can see what numbers you've tried and see how many times you've tried. When you find out the number, you can use the button "reset" to play again. You can test the project in this link : https://codepen.io/ronaldycgomes/pen/WNRQbaw.
 
 Project print:
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TryANumber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class ="titulos-instrucoes">
+            <div class = "flex">
+            <h1>DESCUBRA O NUMERO</h1>
+            <h3>Digite um número entre 0 e 30 !</h3>
+            <div id="chutes">
+                <p id="tentativa">Tentativa número : <strong>1</strong></p>
+                <input type="number" id = "numero-digitado" min="0" max="30" placeholder="0-30">
+                <button id="tentar"><strong>TENTAR</strong></button>
+                <button id ="reset">RESET</button>
+                <p id="validacao">Seu chute foi: <strong>--</strong> </p>
+                <p id="vencedor">Será que você consegue advinhar o número ?</p>
+                <p id="chutes-feitos">Chutes feitos: <strong>--</strong></p>
+            </div>
+               <img class = "signature" src = "https://uploaddeimagens.com.br/images/003/144/715/full/signature.png?1616443554" /> 
+           </div>
+        </div>
+    </main>
+    <script src="./try.js"></script>
+</body>
+</html>

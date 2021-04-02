@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+   input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-size: cover; 
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 25px 
+}
+
+input {
+    width: 30px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+}
+.titulos-instrucoes{
+	  max-width: 100%;
+	  margin: 0 auto;
+	  padding: 20px 0;
+	  text-align: center;
+}
+.flex{
+    border-radius: 18px;
+    width: 507px;
+    height: 510px;
+    background-color: #7FFFD4;
+    background: rgba(0,0,0,0.7);
+    border: 5px solid rgb(49, 0, 226);
+}
+button{
+    color: rgb(49, 0, 226);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80px;
+    height: 42px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgb(49, 0, 226);
+    font-family: "Noto Sans SC", sans-serif;
+    font-size: 16px;
+}
+#reset{
+    background-color: red;
+    font-family: 'Noto Sans SC', sans-serif;
+    color: white;
+
+}
+.signature{
+    float: right;
+    width: 200px;
+    margin: 1em;
+}
+
+h1{
+    color: rgb(43, 43, 228);
+}
